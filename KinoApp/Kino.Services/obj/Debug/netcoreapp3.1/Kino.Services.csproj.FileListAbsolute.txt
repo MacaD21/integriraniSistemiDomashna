@@ -1,0 +1,15 @@
+F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\KinoApp\Kino.Services\bin\Debug\netcoreapp3.1\Kino.Services.deps.json
+F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\KinoApp\Kino.Services\bin\Debug\netcoreapp3.1\Kino.Services.dll
+F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\KinoApp\Kino.Services\bin\Debug\netcoreapp3.1\Kino.Services.pdb
+F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\KinoApp\Kino.Services\obj\Debug\netcoreapp3.1\Kino.Services.csproj.AssemblyReference.cache
+F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\KinoApp\Kino.Services\obj\Debug\netcoreapp3.1\Kino.Services.GeneratedMSBuildEditorConfig.editorconfig
+F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\KinoApp\Kino.Services\obj\Debug\netcoreapp3.1\Kino.Services.AssemblyInfoInputs.cache
+F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\KinoApp\Kino.Services\obj\Debug\netcoreapp3.1\Kino.Services.AssemblyInfo.cs
+F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\KinoApp\Kino.Services\obj\Debug\netcoreapp3.1\Kino.Services.csproj.CoreCompileInputs.cache
+F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\KinoApp\Kino.Services\obj\Debug\netcoreapp3.1\Kino.Services.dll
+F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\KinoApp\Kino.Services\obj\Debug\netcoreapp3.1\Kino.Services.pdb
+F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\KinoApp\Kino.Services\bin\Debug\netcoreapp3.1\Kino.Domain.dll
+F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\KinoApp\Kino.Services\bin\Debug\netcoreapp3.1\Kino.Repository.dll
+F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\KinoApp\Kino.Services\bin\Debug\netcoreapp3.1\Kino.Domain.pdb
+F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\KinoApp\Kino.Services\bin\Debug\netcoreapp3.1\Kino.Repository.pdb
+F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\KinoApp\Kino.Services\obj\Debug\netcoreapp3.1\Kino.Services.csproj.CopyComplete

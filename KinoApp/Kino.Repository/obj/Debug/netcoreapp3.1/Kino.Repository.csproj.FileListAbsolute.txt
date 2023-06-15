@@ -1,0 +1,13 @@
+F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\KinoApp\Kino.Repository\obj\Debug\netcoreapp3.1\Kino.Repository.csproj.AssemblyReference.cache
+F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\KinoApp\Kino.Repository\obj\Debug\netcoreapp3.1\Kino.Repository.GeneratedMSBuildEditorConfig.editorconfig
+F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\KinoApp\Kino.Repository\obj\Debug\netcoreapp3.1\Kino.Repository.AssemblyInfoInputs.cache
+F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\KinoApp\Kino.Repository\obj\Debug\netcoreapp3.1\Kino.Repository.AssemblyInfo.cs
+F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\KinoApp\Kino.Repository\obj\Debug\netcoreapp3.1\Kino.Repository.csproj.CoreCompileInputs.cache
+F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\KinoApp\Kino.Repository\bin\Debug\netcoreapp3.1\Kino.Repository.deps.json
+F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\KinoApp\Kino.Repository\bin\Debug\netcoreapp3.1\Kino.Repository.dll
+F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\KinoApp\Kino.Repository\bin\Debug\netcoreapp3.1\Kino.Repository.pdb
+F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\KinoApp\Kino.Repository\bin\Debug\netcoreapp3.1\Kino.Domain.dll
+F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\KinoApp\Kino.Repository\bin\Debug\netcoreapp3.1\Kino.Domain.pdb
+F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\KinoApp\Kino.Repository\obj\Debug\netcoreapp3.1\Kino.Repository.csproj.CopyComplete
+F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\KinoApp\Kino.Repository\obj\Debug\netcoreapp3.1\Kino.Repository.dll
+F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\KinoApp\Kino.Repository\obj\Debug\netcoreapp3.1\Kino.Repository.pdb
