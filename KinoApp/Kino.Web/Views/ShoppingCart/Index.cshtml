@@ -32,7 +32,7 @@
     </div>
 
     <div class="row m-4">
-        <table class="table">
+        <table class="table" id="shop">
             <thead class="thead-dark">
                 <tr>
                     <th scope="col">#</th>
@@ -57,11 +57,12 @@
                         var item = Model.Products[i];
 
                         <tr>
-                            <th scope="row">@(i + 1)</th>
+                            <td scope="row">@(i + 1)</td>
                             <td>@item.Product.ProductName</td>
                             <td>@item.Quantity</td>
                             <td>$@item.Product.Price</td>
                             <td><a asp-controller="ShoppingCart" asp-action="DeleteFromShoppingCart" asp-route-id="@item.ProductId" class="btn btn-danger">Delete From ShoppingCart</a></td>
+                            <td></td>
                         </tr>
                     }
                 }
@@ -69,6 +70,7 @@
             <tfoot class="thead-dark">
                 <tr>
                     <th scope="col">TotalPrice:</th>
+                    <th scope="col"></th>
                     <th scope="col"></th>
                     <th scope="col"></th>
                     <th scope="col"></th>

@@ -127,3 +127,6 @@ F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\Ki
 F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\KinoApp\KinoAppAdmin\obj\Debug\netcoreapp3.1\KinoAppAdmin.dll
 F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\KinoApp\KinoAppAdmin\obj\Debug\netcoreapp3.1\KinoAppAdmin.pdb
 F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\KinoApp\KinoAppAdmin\obj\Debug\netcoreapp3.1\KinoAppAdmin.genruntimeconfig.cache
+F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\KinoApp\KinoAppAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Order\Details.cshtml.g.cs
+F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\KinoApp\KinoAppAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Order\Index.cshtml.g.cs
+F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\KinoApp\KinoAppAdmin\obj\Debug\netcoreapp3.1\Razor\Views\User\Index.cshtml.g.cs

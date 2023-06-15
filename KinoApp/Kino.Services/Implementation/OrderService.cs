@@ -4,6 +4,7 @@ using Kino.Services.Interface;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Kino.Services.Implementation
 {
@@ -20,9 +21,9 @@ namespace Kino.Services.Implementation
             return orderRepository.GetAllOrders();
         }
 
-        public Order GetOrderDetails(BaseEntity model)
+        public  Order GetOrderDetails(BaseEntity model)
         {
-            return orderRepository.GetOrderDetails(model);
+            return  orderRepository.GetOrderDetails(model);
         }
     }
 }

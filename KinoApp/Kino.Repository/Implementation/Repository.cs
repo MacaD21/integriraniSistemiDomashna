@@ -20,7 +20,7 @@ namespace Kino.Repository.Implementation
 
         public void Delete(T entity)
         {
-            if (entity != null) throw new ArgumentNullException(nameof(entity));
+            if (entity == null) throw new ArgumentNullException(nameof(entity));
             entities.Remove(entity);
             context.SaveChanges();
         }

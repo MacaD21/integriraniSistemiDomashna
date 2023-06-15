@@ -276,9 +276,21 @@
               "target": "Package",
               "version": "[3.1.32, )"
             },
+            "Microsoft.jQuery.Unobtrusive.Validation": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
             "Stripe.net": {
               "target": "Package",
               "version": "[41.20.0, )"
+            },
+            "jQuery": {
+              "target": "Package",
+              "version": "[3.7.0, )"
+            },
+            "jquery.datatables": {
+              "target": "Package",
+              "version": "[1.10.15, )"
             }
           },
           "imports": [

@@ -153,6 +153,10 @@ namespace Kino.Web.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult DeleteConfirmed(Guid id)
         {
+            if(id==null || id == Guid.Empty)
+            {
+                return NotFound();
+            }
             this._productService.DeleteProduct(id);
             return RedirectToAction(nameof(Index));
         }

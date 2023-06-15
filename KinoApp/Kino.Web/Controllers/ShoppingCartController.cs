@@ -13,22 +13,22 @@ namespace Kino.Web.Controllers
         public ShoppingCartController(IShoppingCartService shoppingCartService)
         {
             _shoppingCartService = shoppingCartService;
+            StripeConfiguration.ApiKey = "sk_test_51NIzhaCu38DStnw8kR2YWVpa2UcceyKTMfySprqAbsVRSry8fFG5dmpwehLXpmnTZV5esSD5Gwt5eAPMdkAOJihg00qisRbTh7";
         }
 
         public IActionResult Index()
         {
             string userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
 
-            return View(this._shoppingCartService.GetShoppingCartInfo(userId));
+            return View(_shoppingCartService.GetShoppingCartInfo(userId));
         }
 
 
 
-        public IActionResult DeleteProductFromShoppingCart(Guid id)
+        public IActionResult DeleteFromShoppingCart(Guid id)
         {
             string userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-
-            var result = this._shoppingCartService.DeleteProductFromShoppingCart(userId, id);
+            var result = _shoppingCartService.DeleteProductFromShoppingCart(userId, id);
 
             if (result)
             {
@@ -36,15 +36,16 @@ namespace Kino.Web.Controllers
             }
             else
             {
-                return RedirectToAction("Index", "ShoppingCart");
+                return RedirectToAction("Index","ShoppingCart");
             }
         }
+
 
         private Boolean Order()
         {
             string userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
 
-            var result = this._shoppingCartService.Order(userId);
+            var result = _shoppingCartService.Order(userId);
 
             return result;
         }
@@ -55,7 +56,7 @@ namespace Kino.Web.Controllers
             var chargeService = new ChargeService();
             string userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
 
-            var order = this._shoppingCartService.GetShoppingCartInfo(userId);
+            var order = _shoppingCartService.GetShoppingCartInfo(userId);
 
             var customer = customerService.Create(new CustomerCreateOptions
             {
@@ -66,15 +67,14 @@ namespace Kino.Web.Controllers
             var charge = chargeService.Create(new ChargeCreateOptions
             {
                 Amount = (Convert.ToInt32(order.TotalPrice) * 100),
-                Description = "CinemaShop Application Payment",
+                Description = "Kino Application Payment",
                 Currency = "mkd",
                 Customer = customer.Id
             });
 
-            if (charge.Status == "succeeded")
+            if (charge.Status.Equals( "succeeded"))
             {
-                var result = this.Order();
-
+                var result = Order();
                 if (result != null)
                 {
                     return RedirectToAction("Index", "ShoppingCart");
@@ -83,6 +83,9 @@ namespace Kino.Web.Controllers
                 {
                     return RedirectToAction("Index", "ShoppingCart");
                 }
+                
+                   
+              
             }
 
             return RedirectToAction("Index", "ShoppingCart");
