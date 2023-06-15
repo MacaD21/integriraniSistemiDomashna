@@ -6069,11 +6069,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\IMPORTANTTTTTTTTTTTTTTTTTTTT\\FINKI\\Reopsitory\\Integrirani-Sistemi-Domashna\\KinoApp\\Kino.Repository\\Kino.Repository.csproj",
+      "projectUniqueName": "F:\\IMPORTANTTTTTTTTTTTTTTTTTTTT\\FINKI\\Reopsitory\\Integrirani-Sistemi-Domashna\\Kino.Repository\\Kino.Repository.csproj",
       "projectName": "Kino.Repository",
-      "projectPath": "F:\\IMPORTANTTTTTTTTTTTTTTTTTTTT\\FINKI\\Reopsitory\\Integrirani-Sistemi-Domashna\\KinoApp\\Kino.Repository\\Kino.Repository.csproj",
+      "projectPath": "F:\\IMPORTANTTTTTTTTTTTTTTTTTTTT\\FINKI\\Reopsitory\\Integrirani-Sistemi-Domashna\\Kino.Repository\\Kino.Repository.csproj",
       "packagesPath": "C:\\Users\\Beqir\\.nuget\\packages\\",
-      "outputPath": "F:\\IMPORTANTTTTTTTTTTTTTTTTTTTT\\FINKI\\Reopsitory\\Integrirani-Sistemi-Domashna\\KinoApp\\Kino.Repository\\obj\\",
+      "outputPath": "F:\\IMPORTANTTTTTTTTTTTTTTTTTTTT\\FINKI\\Reopsitory\\Integrirani-Sistemi-Domashna\\Kino.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Beqir\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6090,8 +6090,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "F:\\IMPORTANTTTTTTTTTTTTTTTTTTTT\\FINKI\\Reopsitory\\Integrirani-Sistemi-Domashna\\KinoApp\\Kino.Domain\\Kino.Domain.csproj": {
-              "projectPath": "F:\\IMPORTANTTTTTTTTTTTTTTTTTTTT\\FINKI\\Reopsitory\\Integrirani-Sistemi-Domashna\\KinoApp\\Kino.Domain\\Kino.Domain.csproj"
+            "F:\\IMPORTANTTTTTTTTTTTTTTTTTTTT\\FINKI\\Reopsitory\\Integrirani-Sistemi-Domashna\\Kino.Domain\\Kino.Domain.csproj": {
+              "projectPath": "F:\\IMPORTANTTTTTTTTTTTTTTTTTTTT\\FINKI\\Reopsitory\\Integrirani-Sistemi-Domashna\\Kino.Domain\\Kino.Domain.csproj"
             }
           }
         }

@@ -910,11 +910,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\IMPORTANTTTTTTTTTTTTTTTTTTTT\\FINKI\\Reopsitory\\Integrirani-Sistemi-Domashna\\KinoApp\\Kino.Domain\\Kino.Domain.csproj",
+      "projectUniqueName": "F:\\IMPORTANTTTTTTTTTTTTTTTTTTTT\\FINKI\\Reopsitory\\Integrirani-Sistemi-Domashna\\Kino.Domain\\Kino.Domain.csproj",
       "projectName": "Kino.Domain",
-      "projectPath": "F:\\IMPORTANTTTTTTTTTTTTTTTTTTTT\\FINKI\\Reopsitory\\Integrirani-Sistemi-Domashna\\KinoApp\\Kino.Domain\\Kino.Domain.csproj",
+      "projectPath": "F:\\IMPORTANTTTTTTTTTTTTTTTTTTTT\\FINKI\\Reopsitory\\Integrirani-Sistemi-Domashna\\Kino.Domain\\Kino.Domain.csproj",
       "packagesPath": "C:\\Users\\Beqir\\.nuget\\packages\\",
-      "outputPath": "F:\\IMPORTANTTTTTTTTTTTTTTTTTTTT\\FINKI\\Reopsitory\\Integrirani-Sistemi-Domashna\\KinoApp\\Kino.Domain\\obj\\",
+      "outputPath": "F:\\IMPORTANTTTTTTTTTTTTTTTTTTTT\\FINKI\\Reopsitory\\Integrirani-Sistemi-Domashna\\Kino.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Beqir\\AppData\\Roaming\\NuGet\\NuGet.Config",

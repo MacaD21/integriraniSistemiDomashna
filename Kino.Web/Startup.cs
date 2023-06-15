@@ -1,8 +1,10 @@
 using Kino.Domain;
+using Kino.Domain.DomainModels;
 using Kino.Domain.Identity;
 using Kino.Repository;
 using Kino.Repository.Implementation;
 using Kino.Repository.Interface;
+using Kino.Services;
 using Kino.Services.Implementation;
 using Kino.Services.Interface;
 using Microsoft.AspNetCore.Builder;
@@ -38,6 +40,8 @@ namespace Kino.Web
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDefaultIdentity<KinoUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+
+
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
             services.AddScoped(typeof(IUserReopsitory), typeof(UserRepository));
             services.AddScoped(typeof(IOrderRepository), typeof(OrderRepository));
@@ -47,6 +51,14 @@ namespace Kino.Web
             services.AddTransient<IProductService, ProductService>();
             services.AddTransient<IShoppingCartService, ShoppingCartService>();
             services.AddTransient<IOrderService, OrderService>();
+
+      //      services.AddSingleton(Configuration.GetSection("EmailSettings").Get<EmailSettings>());
+
+       //     services.AddScoped<IEmailSender, EmailSender>();
+       //     services.AddScoped<IEmailService, EmailService>();
+       //     services.AddScoped<IRepository<EmailMessage>, EmailMessageRepository>();
+
+       //     services.AddHostedService<ConsumeScopedHostedService>();
 
             services.AddControllersWithViews()
                 .AddNewtonsoftJson(options =>

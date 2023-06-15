@@ -8,3 +8,13 @@ F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\Ki
 F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\KinoApp\Kino.Domain\obj\Debug\netcoreapp3.1\Kino.Domain.csproj.CoreCompileInputs.cache
 F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\KinoApp\Kino.Domain\obj\Debug\netcoreapp3.1\Kino.Domain.dll
 F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\KinoApp\Kino.Domain\obj\Debug\netcoreapp3.1\Kino.Domain.pdb
+F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\Kino.Domain\bin\Debug\netcoreapp3.1\Kino.Domain.deps.json
+F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\Kino.Domain\bin\Debug\netcoreapp3.1\Kino.Domain.dll
+F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\Kino.Domain\bin\Debug\netcoreapp3.1\Kino.Domain.pdb
+F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\Kino.Domain\obj\Debug\netcoreapp3.1\Kino.Domain.csproj.AssemblyReference.cache
+F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\Kino.Domain\obj\Debug\netcoreapp3.1\Kino.Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\Kino.Domain\obj\Debug\netcoreapp3.1\Kino.Domain.AssemblyInfoInputs.cache
+F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\Kino.Domain\obj\Debug\netcoreapp3.1\Kino.Domain.AssemblyInfo.cs
+F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\Kino.Domain\obj\Debug\netcoreapp3.1\Kino.Domain.csproj.CoreCompileInputs.cache
+F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\Kino.Domain\obj\Debug\netcoreapp3.1\Kino.Domain.dll
+F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\Kino.Domain\obj\Debug\netcoreapp3.1\Kino.Domain.pdb

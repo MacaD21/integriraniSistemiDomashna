@@ -4,9 +4,7 @@ using Kino.Services.Interface;
 using System.Net.Mail;
 using MailKit.Security;
 using MimeKit;
-using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Kino.Services.Implementation
@@ -31,7 +29,7 @@ namespace Kino.Services.Implementation
                 };
                 emailMessage.From.Add(new MailboxAddress(settings.EmailDisplayName, settings.SmtpUserName));
                 emailMessage.Body = new TextPart(MimeKit.Text.TextFormat.Plain) { Text = item.Body };
-                emailMessage.To.Add(new MailboxAddress(item.MailTo,item.MailTo));
+                emailMessage.To.Add(MailboxAddress.Parse(item.MailTo));
                 messages.Add(emailMessage);
             }
             try

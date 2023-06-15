@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uWAx2jhQDeLV6bSvYLS4EoXn9i5mzZ3ajvGPEPsmwaf36gWEnA0chVHA7DJFzP9zwma69gbyg86yogefT4Jniw==",
+  "dgSpecHash": "Z5Ho3zFaJT5sO1Hi3lEWm7X59hBjdhBdUeENfuGnj7/4XylVn0kUd5MI0dBeF6FesXVYfkvQyDBn05JzOvv2DA==",
   "success": true,
-  "projectFilePath": "F:\\IMPORTANTTTTTTTTTTTTTTTTTTTT\\FINKI\\Reopsitory\\Integrirani-Sistemi-Domashna\\KinoApp\\Kino.Web\\Kino.Web.csproj",
+  "projectFilePath": "F:\\IMPORTANTTTTTTTTTTTTTTTTTTTT\\FINKI\\Reopsitory\\Integrirani-Sistemi-Domashna\\Kino.Web\\Kino.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Beqir\\.nuget\\packages\\jquery\\3.7.0\\jquery.3.7.0.nupkg.sha512",
     "C:\\Users\\Beqir\\.nuget\\packages\\jquery.datatables\\1.10.15\\jquery.datatables.1.10.15.nupkg.sha512",
