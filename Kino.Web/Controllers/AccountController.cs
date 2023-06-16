@@ -102,7 +102,7 @@ namespace Kino.Web.Controllers
 
                 if (result.Succeeded)
                 {
-                    await userManager.AddClaimAsync(user, new Claim("UserRole", "Admin"));
+                    await userManager.AddClaimAsync(user, new Claim("UserRole", "StandartdUser"));
                     return RedirectToAction("Index", "Home");
                 }
                 else if (result.IsLockedOut)

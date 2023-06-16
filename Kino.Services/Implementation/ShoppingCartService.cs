@@ -93,9 +93,9 @@ namespace Kino.Services.Implementation
             StringBuilder sb = new StringBuilder();
             var totalPrice = 0;
             sb.AppendLine("Успешна нарачка и содржи: ");
-            for (int i = 1; i < result.Count; i++)
+            for (int i = 1; i <= result.Count; i++)
             {
-                var product = result[i - 1];
+                var product = result[i-1];
                 totalPrice += product.Quantity * product.OrderedProduct.Price;
                 sb.AppendLine(i.ToString() + "." + product.OrderedProduct.ProductName + " со цена: " + product.OrderedProduct.Price + " и количина: " + product.Quantity);
             }

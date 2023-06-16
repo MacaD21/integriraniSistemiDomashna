@@ -25,9 +25,12 @@ namespace Kino.Web
 {
     public class Startup
     {
+        private EmailSettings emailService;
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+            emailService = new EmailSettings();
+            Configuration.GetSection("EmailSettings").Bind(emailService);
         }
 
         public IConfiguration Configuration { get; }
@@ -52,13 +55,12 @@ namespace Kino.Web
             services.AddTransient<IShoppingCartService, ShoppingCartService>();
             services.AddTransient<IOrderService, OrderService>();
 
-      //      services.AddSingleton(Configuration.GetSection("EmailSettings").Get<EmailSettings>());
+            services.AddScoped<EmailSettings>(es => emailService);
+              services.AddScoped<IEmailSender, EmailSender>();
+            services.AddScoped<IEmailService, EmailService>(email => new EmailService(emailService));
+       //    services.AddScoped<IRepository<EmailMessage>, EmailMessageRepository>();
 
-       //     services.AddScoped<IEmailSender, EmailSender>();
-       //     services.AddScoped<IEmailService, EmailService>();
-       //     services.AddScoped<IRepository<EmailMessage>, EmailMessageRepository>();
-
-       //     services.AddHostedService<ConsumeScopedHostedService>();
+            services.AddHostedService<ConsumeScopedHostedService>();
 
             services.AddControllersWithViews()
                 .AddNewtonsoftJson(options =>

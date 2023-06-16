@@ -6,6 +6,7 @@ using MailKit.Security;
 using MimeKit;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using MimeKit.Text;
 
 namespace Kino.Services.Implementation
 {
@@ -28,7 +29,7 @@ namespace Kino.Services.Implementation
                     Subject = item.Subject
                 };
                 emailMessage.From.Add(new MailboxAddress(settings.EmailDisplayName, settings.SmtpUserName));
-                emailMessage.Body = new TextPart(MimeKit.Text.TextFormat.Plain) { Text = item.Body };
+                emailMessage.Body = new TextPart(TextFormat.Plain) { Text = item.Subject };
                 emailMessage.To.Add(MailboxAddress.Parse(item.MailTo));
                 messages.Add(emailMessage);
             }
@@ -40,7 +41,7 @@ namespace Kino.Services.Implementation
                     await smtp.ConnectAsync(settings.SmtpServer, settings.SmtpServerPort, socketOpiton);
                     if (!string.IsNullOrEmpty(settings.SmtpUserName))
                     {
-                        await smtp.AuthenticateAsync(settings.SenderName, settings.SmtpPassword);
+                        await smtp.AuthenticateAsync(settings.SmtpUserName, settings.SmtpPassword);
                     }
                     foreach(var item in messages)
                     {

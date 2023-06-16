@@ -14,7 +14,7 @@
         {
 
         }
-        public EmailSettings(string SmtpServer, string SmtpUserName, string SmtpPassword, int SmtpServerPort)
+        public EmailSettings(string SmtpServer, string SmtpUserName, string SmtpPassword, int SmtpServerPort, bool EnableSSL)
         {
             this.SmtpServer = SmtpServer;
             this.SmtpUserName = SmtpUserName;

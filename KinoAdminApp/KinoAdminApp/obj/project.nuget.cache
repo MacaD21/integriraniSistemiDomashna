@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iGJzDJ7vztPJlS72f9EOWnDwjRJwO2hcK15CZIlmdirix3R3LgkJi1nQFoz4OqTQoZChKzzVdaU4BRVkEd+EcQ==",
+  "dgSpecHash": "kI249UemiNOtmnSC4aboxc7hRKS+jqfSYta/uezwjvW/3aFxbOqDQYcwRsV5x8yd/98bYJ7nRXbduPlhTmQ9GQ==",
   "success": true,
-  "projectFilePath": "F:\\IMPORTANTTTTTTTTTTTTTTTTTTTT\\FINKI\\Reopsitory\\Integrirani-Sistemi-Domashna\\KinoApp\\KinoAdminApp\\KinoAdminApp\\KinoAdminApp.csproj",
+  "projectFilePath": "F:\\IMPORTANTTTTTTTTTTTTTTTTTTTT\\FINKI\\Reopsitory\\Integrirani-Sistemi-Domashna\\KinoAdminApp\\KinoAdminApp\\KinoAdminApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Beqir\\.nuget\\packages\\closedxml\\0.95.4\\closedxml.0.95.4.nupkg.sha512",
     "C:\\Users\\Beqir\\.nuget\\packages\\documentformat.openxml\\2.7.2\\documentformat.openxml.2.7.2.nupkg.sha512",
