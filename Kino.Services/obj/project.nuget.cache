@@ -1,14 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "Y4qtkqWEG+r6CNrYScpo/IurviQM5xSfDIhHFKBGSp+KDvAOGKY5vuir2ozpQDr+fndHt4wCc+t0BaAHO+mYJQ==",
+  "dgSpecHash": "vQugX9RWFlgVEDt9J5FU5WKc1755trI5HvC/+47/SZ4nd4y9Cdgmds5C7NfMUQMzsqJkXEBdS94+K8t6rA3krQ==",
   "success": true,
   "projectFilePath": "F:\\IMPORTANTTTTTTTTTTTTTTTTTTTT\\FINKI\\Reopsitory\\Integrirani-Sistemi-Domashna\\Kino.Services\\Kino.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Beqir\\.nuget\\packages\\bouncycastle.cryptography\\2.1.1\\bouncycastle.cryptography.2.1.1.nupkg.sha512",
     "C:\\Users\\Beqir\\.nuget\\packages\\mailkit\\4.0.0\\mailkit.4.0.0.nupkg.sha512",
+    "C:\\Users\\Beqir\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.32\\microsoft.aspnetcore.authorization.3.1.32.nupkg.sha512",
     "C:\\Users\\Beqir\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.32\\microsoft.aspnetcore.cryptography.internal.3.1.32.nupkg.sha512",
     "C:\\Users\\Beqir\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.32\\microsoft.aspnetcore.cryptography.keyderivation.3.1.32.nupkg.sha512",
     "C:\\Users\\Beqir\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\3.1.32\\microsoft.aspnetcore.identity.entityframeworkcore.3.1.32.nupkg.sha512",
+    "C:\\Users\\Beqir\\.nuget\\packages\\microsoft.aspnetcore.metadata\\3.1.32\\microsoft.aspnetcore.metadata.3.1.32.nupkg.sha512",
     "C:\\Users\\Beqir\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Beqir\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
     "C:\\Users\\Beqir\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

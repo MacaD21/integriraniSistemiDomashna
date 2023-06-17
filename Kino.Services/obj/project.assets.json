@@ -31,6 +31,24 @@
           }
         }
       },
+      "Microsoft.AspNetCore.Authorization/3.1.32": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Metadata": "3.1.32",
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.32",
+          "Microsoft.Extensions.Options": "3.1.32"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authorization.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authorization.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Cryptography.Internal/3.1.32": {
         "type": "package",
         "compile": {
@@ -73,6 +91,19 @@
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Metadata/3.1.32": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Metadata.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Metadata.dll": {
             "related": ".xml"
           }
         }
@@ -2024,6 +2055,23 @@
         "mailkit.nuspec"
       ]
     },
+    "Microsoft.AspNetCore.Authorization/3.1.32": {
+      "sha512": "crGS0sKvN/pH/efVpWYLQCIHBxF4RE7mz7s6fa2ULk8WKiFkEoGbdB7dcafNA1LTmwcLxuAQhL7Hyu82mSYVlQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authorization/3.1.32",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Authorization.dll",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Authorization.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.xml",
+        "microsoft.aspnetcore.authorization.3.1.32.nupkg.sha512",
+        "microsoft.aspnetcore.authorization.nuspec"
+      ]
+    },
     "Microsoft.AspNetCore.Cryptography.Internal/3.1.32": {
       "sha512": "tULjwFie6fYm4o6WfD+aHTTrps2I22MQVZpmEWaJumFmzZWA1nHsKezuCBl/u/iKiXtN3npL6MoINaiLHURr/A==",
       "type": "package",
@@ -2075,6 +2123,23 @@
         "lib/netstandard2.1/Microsoft.AspNetCore.Identity.EntityFrameworkCore.xml",
         "microsoft.aspnetcore.identity.entityframeworkcore.3.1.32.nupkg.sha512",
         "microsoft.aspnetcore.identity.entityframeworkcore.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Metadata/3.1.32": {
+      "sha512": "NnvOzh1mBesgFXXvNIdPCunEgo0H+08yHjAUuxorYM+yGbXYT32T8UFBWXWE0WR3a8v8qlUHlqgm6pWPEs7rWA==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.metadata/3.1.32",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Metadata.dll",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Metadata.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Metadata.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Metadata.xml",
+        "microsoft.aspnetcore.metadata.3.1.32.nupkg.sha512",
+        "microsoft.aspnetcore.metadata.nuspec"
       ]
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
@@ -6489,6 +6554,7 @@
       "Kino.Domain >= 1.0.0",
       "Kino.Repository >= 1.0.0",
       "MailKit >= 4.0.0",
+      "Microsoft.AspNetCore.Authorization >= 3.1.32",
       "Microsoft.Extensions.Hosting.Abstractions >= 3.1.32",
       "MimeKit >= 4.0.0"
     ]
@@ -6542,6 +6608,10 @@
           "MailKit": {
             "target": "Package",
             "version": "[4.0.0, )"
+          },
+          "Microsoft.AspNetCore.Authorization": {
+            "target": "Package",
+            "version": "[3.1.32, )"
           },
           "Microsoft.Extensions.Hosting.Abstractions": {
             "target": "Package",

@@ -3,6 +3,7 @@ using Kino.Domain.DTO;
 using Kino.Repository.Implementation;
 using Kino.Repository.Interface;
 using Kino.Services.Interface;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -11,6 +12,7 @@ using System.Text;
 
 namespace Kino.Services.Implementation
 {
+    
     public class ProductService:IProductService
     {
         private readonly IRepository<Product> _productRepository;
@@ -47,7 +49,18 @@ namespace Kino.Services.Implementation
                         Quantity = item.Quantity
                     };
 
-                    _productInShoppingCartReository.Insert(itemToAdd);
+                    var existing = userShoppingCard.ProductInShoppingCarts.Where(z => z.ShoppingCartId == userShoppingCard.Id && z.ProductId == itemToAdd.ProductId).FirstOrDefault();
+
+                    if (existing != null)
+                    {
+                        existing.Quantity += itemToAdd.Quantity;
+                        _productInShoppingCartReository.Update(existing);
+
+                    }
+                    else
+                    {
+                        _productInShoppingCartReository.Insert(itemToAdd);
+                    }
                     return true;
                 }
                 return false;

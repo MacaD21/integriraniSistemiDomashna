@@ -75,7 +75,7 @@ namespace Kino.Web.Controllers
             if (charge.Status.Equals( "succeeded"))
             {
                 var result = Order();
-                if (result != null)
+                if (result)
                 {
                     return RedirectToAction("Index", "ShoppingCart");
                 }

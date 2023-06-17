@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "oi7DA6v3HApwavCZoAkr25rO/knGWMAjNVryLIEGLU7/zKydAJ5/n+ajlfOGAV44YHtqFdjJ12yMfITAcm7J1w==",
+  "dgSpecHash": "APIoU7Jyo5oYrUE4nIW6EOFGr4aF2sMLXJMjUGUVuk2PZT8zUzqJ3Z2KMohS/+rN8iGC2Cso+RaY1cxmY7ZP/g==",
   "success": true,
   "projectFilePath": "F:\\IMPORTANTTTTTTTTTTTTTTTTTTTT\\FINKI\\Reopsitory\\Integrirani-Sistemi-Domashna\\Kino.Web\\Kino.Web.csproj",
   "expectedPackageFiles": [
@@ -9,12 +9,14 @@
     "C:\\Users\\Beqir\\.nuget\\packages\\jquery.datatables\\1.10.15\\jquery.datatables.1.10.15.nupkg.sha512",
     "C:\\Users\\Beqir\\.nuget\\packages\\jquery.validation\\1.8.0.1\\jquery.validation.1.8.0.1.nupkg.sha512",
     "C:\\Users\\Beqir\\.nuget\\packages\\mailkit\\4.0.0\\mailkit.4.0.0.nupkg.sha512",
+    "C:\\Users\\Beqir\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.32\\microsoft.aspnetcore.authorization.3.1.32.nupkg.sha512",
     "C:\\Users\\Beqir\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.32\\microsoft.aspnetcore.cryptography.internal.3.1.32.nupkg.sha512",
     "C:\\Users\\Beqir\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.32\\microsoft.aspnetcore.cryptography.keyderivation.3.1.32.nupkg.sha512",
     "C:\\Users\\Beqir\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\3.1.32\\microsoft.aspnetcore.diagnostics.entityframeworkcore.3.1.32.nupkg.sha512",
     "C:\\Users\\Beqir\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\3.1.32\\microsoft.aspnetcore.identity.entityframeworkcore.3.1.32.nupkg.sha512",
     "C:\\Users\\Beqir\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\3.1.32\\microsoft.aspnetcore.identity.ui.3.1.32.nupkg.sha512",
     "C:\\Users\\Beqir\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.30\\microsoft.aspnetcore.jsonpatch.3.1.30.nupkg.sha512",
+    "C:\\Users\\Beqir\\.nuget\\packages\\microsoft.aspnetcore.metadata\\3.1.32\\microsoft.aspnetcore.metadata.3.1.32.nupkg.sha512",
     "C:\\Users\\Beqir\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.30\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.30.nupkg.sha512",
     "C:\\Users\\Beqir\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Beqir\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",

@@ -34,6 +34,10 @@ namespace Kino.Repository
                 .ValueGeneratedOnAdd();
 
             builder.Entity<ProductInShoppingCart>()
+              .Property(z => z.Id)
+              .ValueGeneratedOnAdd(); 
+
+            builder.Entity<ProductInShoppingCart>()
                 .HasOne(z => z.Product)
                 .WithMany(z => z.ProductInShoppingCarts)
                 .HasForeignKey(z => z.ShoppingCartId);
@@ -42,6 +46,10 @@ namespace Kino.Repository
                 .HasOne<KinoUser>(z => z.Owner)
                 .WithOne(z => z.UserCart)
                 .HasForeignKey<ShoppingCart>(z => z.OwnerId);
+
+            builder.Entity<ProductInOrder>()
+                .Property(z => z.Id)
+                .ValueGeneratedOnAdd();
 
             builder.Entity<ProductInOrder>()
                .HasOne(z => z.OrderedProduct)

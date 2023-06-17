@@ -7,6 +7,7 @@ using Kino.Repository.Interface;
 using Kino.Services;
 using Kino.Services.Implementation;
 using Kino.Services.Interface;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -44,6 +45,12 @@ namespace Kino.Web
             services.AddDefaultIdentity<KinoUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
+            services.AddScoped<EmailSettings>(es => emailService);
+            services.AddScoped<IEmailSender, EmailSender>();
+            services.AddScoped<IEmailService, EmailService>(email => new EmailService(emailService));
+
+
+            services.AddHostedService<ConsumeScopedHostedService>();
 
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
             services.AddScoped(typeof(IUserReopsitory), typeof(UserRepository));
@@ -55,12 +62,12 @@ namespace Kino.Web
             services.AddTransient<IShoppingCartService, ShoppingCartService>();
             services.AddTransient<IOrderService, OrderService>();
 
-            services.AddScoped<EmailSettings>(es => emailService);
-              services.AddScoped<IEmailSender, EmailSender>();
-            services.AddScoped<IEmailService, EmailService>(email => new EmailService(emailService));
-       //    services.AddScoped<IRepository<EmailMessage>, EmailMessageRepository>();
+          
 
-            services.AddHostedService<ConsumeScopedHostedService>();
+      //      services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+       //         .AddCookie();
+
+       //     services.AddAuthorization();
 
             services.AddControllersWithViews()
                 .AddNewtonsoftJson(options =>

@@ -2,6 +2,7 @@
 using Kino.Domain.DTO;
 using Kino.Repository.Interface;
 using Kino.Services.Interface;
+using Microsoft.AspNetCore.Authorization;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,7 @@ using System.Text;
 
 namespace Kino.Services.Implementation
 {
+    
     public class ShoppingCartService : IShoppingCartService
     {
         private readonly IRepository<ShoppingCart> _shoppingCartRepository;
@@ -39,28 +41,31 @@ namespace Kino.Services.Implementation
             }
             return false;
         }
-
         public ShoppingCartDTO GetShoppingCartInfo(string userId)
         {
-            var loggedInUser = _userRepository.Get(userId);
-            var userShoppingCart = loggedInUser.UserCart;
-            var AllProducts = userShoppingCart.ProductInShoppingCarts.ToList();
-            var allProductPrice = AllProducts.Select(e => new
+            if (!string.IsNullOrEmpty(userId))
             {
-                ProductPrice = e.Product.Price,
-                Quantity = e.Quantity
-            }).ToList();
-            double totalPrice = 0;
-            foreach (var item in allProductPrice)
-            {
-                totalPrice += item.ProductPrice * item.Quantity;
+                var loggedInUser = _userRepository.Get(userId);
+                var userShoppingCart = loggedInUser.UserCart;
+                var AllProducts = userShoppingCart.ProductInShoppingCarts.ToList();
+                var allProductPrice = AllProducts.Select(e => new
+                {
+                    ProductPrice = e.Product.Price,
+                    Quantity = e.Quantity
+                }).ToList();
+                double totalPrice = 0.0;
+                foreach (var item in allProductPrice)
+                {
+                    totalPrice += item.ProductPrice * item.Quantity;
+                }
+                ShoppingCartDTO cart = new ShoppingCartDTO
+                {
+                    Products = AllProducts,
+                    TotalPrice = totalPrice
+                };
+                return cart;
             }
-            ShoppingCartDTO cart = new ShoppingCartDTO
-            {
-                Products = AllProducts,
-                TotalPrice = totalPrice
-            };
-            return cart;
+            return new ShoppingCartDTO();
         }
 
         public bool Order(string userId)
@@ -91,16 +96,16 @@ namespace Kino.Services.Implementation
                 Quantity = e.Quantity
             }).ToList();
             StringBuilder sb = new StringBuilder();
-            var totalPrice = 0;
+            var totalPrice = 0.0;
             sb.AppendLine("Успешна нарачка и содржи: ");
-            for (int i = 1; i <= result.Count; i++)
+            for (int i = 1; i <= result.Count(); i++)
             {
                 var product = result[i-1];
-                totalPrice += product.Quantity * product.OrderedProduct.Price;
-                sb.AppendLine(i.ToString() + "." + product.OrderedProduct.ProductName + " со цена: " + product.OrderedProduct.Price + " и количина: " + product.Quantity);
+                totalPrice +=  product.Quantity * product.OrderedProduct.Price;
+                sb.AppendLine(i.ToString() + ". " + product.OrderedProduct.ProductName + " со цена: " + product.OrderedProduct.Price + " и количина: " + product.Quantity);
             }
             sb.AppendLine("Вкупно: " + totalPrice.ToString());
-            mail.Subject = sb.ToString();
+            mail.Content = sb.ToString();
 
             productInOrders.AddRange(result);
 
@@ -114,7 +119,7 @@ namespace Kino.Services.Implementation
             return true;
         }
         return false;
-            }
+        }
         
     }
 }

@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace Kino.Web.Controllers
 {
+    [AllowAnonymous]
     public class AccountController : Controller
     {
         private readonly UserManager<KinoUser> userManager;
@@ -102,7 +103,7 @@ namespace Kino.Web.Controllers
 
                 if (result.Succeeded)
                 {
-                    await userManager.AddClaimAsync(user, new Claim("UserRole", "StandartdUser"));
+                    await userManager.AddClaimAsync(user, new Claim("UserRole", "Admin"));
                     return RedirectToAction("Index", "Home");
                 }
                 else if (result.IsLockedOut)

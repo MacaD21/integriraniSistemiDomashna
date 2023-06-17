@@ -246,3 +246,5 @@ F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\Ki
 F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\Kino.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Security.Cryptography.Cng.dll
 F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\Kino.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
 F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\Kino.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\System.Text.Encoding.CodePages.dll
+F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\Kino.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authorization.dll
+F:\IMPORTANTTTTTTTTTTTTTTTTTTTT\FINKI\Reopsitory\Integrirani-Sistemi-Domashna\Kino.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Metadata.dll

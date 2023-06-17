@@ -51,7 +51,6 @@
           "Microsoft.AspNetCore.Authentication.Core": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.OAuth": "3.1.0.0",
-          "Microsoft.AspNetCore.Authorization": "3.1.0.0",
           "Microsoft.AspNetCore.Authorization.Policy": "3.1.0.0",
           "Microsoft.AspNetCore.Components.Authorization": "3.1.0.0",
           "Microsoft.AspNetCore.Components": "3.1.0.0",
@@ -84,7 +83,6 @@
           "Microsoft.AspNetCore.Identity": "3.1.0.0",
           "Microsoft.AspNetCore.Localization": "3.1.0.0",
           "Microsoft.AspNetCore.Localization.Routing": "3.1.0.0",
-          "Microsoft.AspNetCore.Metadata": "3.1.0.0",
           "Microsoft.AspNetCore.Mvc.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Mvc.ApiExplorer": "3.1.0.0",
           "Microsoft.AspNetCore.Mvc.Core": "3.1.0.0",
@@ -348,6 +346,22 @@
           "lib/netstandard2.1/MailKit.dll": {}
         }
       },
+      "Microsoft.AspNetCore.Authorization/3.1.32": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Metadata": "3.1.32",
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.32",
+          "Microsoft.Extensions.Options": "3.1.32"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authorization.dll": {
+            "assemblyVersion": "3.1.32.0",
+            "fileVersion": "3.100.3222.56610"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authorization.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Cryptography.Internal/3.1.32": {
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.Internal.dll": {
@@ -441,6 +455,17 @@
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.AspNetCore.JsonPatch.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Metadata/3.1.32": {
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Metadata.dll": {
+            "assemblyVersion": "3.1.32.0",
+            "fileVersion": "3.100.3222.56610"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Metadata.dll": {}
         }
       },
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson/3.1.30": {
@@ -1735,6 +1760,7 @@
           "Kino.Domain": "1.0.0",
           "Kino.Repository": "1.0.0",
           "MailKit": "4.0.0",
+          "Microsoft.AspNetCore.Authorization": "3.1.32",
           "Microsoft.Extensions.Hosting.Abstractions": "3.1.32",
           "MimeKit": "4.0.0"
         },
@@ -1778,12 +1804,6 @@
       "Microsoft.AspNetCore.Authentication.OAuth/3.1.0.0": {
         "compile": {
           "Microsoft.AspNetCore.Authentication.OAuth.dll": {}
-        },
-        "compileOnly": true
-      },
-      "Microsoft.AspNetCore.Authorization/3.1.0.0": {
-        "compile": {
-          "Microsoft.AspNetCore.Authorization.dll": {}
         },
         "compileOnly": true
       },
@@ -1976,12 +1996,6 @@
       "Microsoft.AspNetCore.Localization.Routing/3.1.0.0": {
         "compile": {
           "Microsoft.AspNetCore.Localization.Routing.dll": {}
-        },
-        "compileOnly": true
-      },
-      "Microsoft.AspNetCore.Metadata/3.1.0.0": {
-        "compile": {
-          "Microsoft.AspNetCore.Metadata.dll": {}
         },
         "compileOnly": true
       },
@@ -3342,6 +3356,13 @@
       "path": "mailkit/4.0.0",
       "hashPath": "mailkit.4.0.0.nupkg.sha512"
     },
+    "Microsoft.AspNetCore.Authorization/3.1.32": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-crGS0sKvN/pH/efVpWYLQCIHBxF4RE7mz7s6fa2ULk8WKiFkEoGbdB7dcafNA1LTmwcLxuAQhL7Hyu82mSYVlQ==",
+      "path": "microsoft.aspnetcore.authorization/3.1.32",
+      "hashPath": "microsoft.aspnetcore.authorization.3.1.32.nupkg.sha512"
+    },
     "Microsoft.AspNetCore.Cryptography.Internal/3.1.32": {
       "type": "package",
       "serviceable": true,
@@ -3383,6 +3404,13 @@
       "sha512": "sha512-R1WfWIUKZeIL8+AU8rW5W5W7Tm5856EbmwjIy1on/R1cxm2Peetap/37NY1faLvQhhRfKHsL/n29/LBQK2VS5g==",
       "path": "microsoft.aspnetcore.jsonpatch/3.1.30",
       "hashPath": "microsoft.aspnetcore.jsonpatch.3.1.30.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Metadata/3.1.32": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NnvOzh1mBesgFXXvNIdPCunEgo0H+08yHjAUuxorYM+yGbXYT32T8UFBWXWE0WR3a8v8qlUHlqgm6pWPEs7rWA==",
+      "path": "microsoft.aspnetcore.metadata/3.1.32",
+      "hashPath": "microsoft.aspnetcore.metadata.3.1.32.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Mvc.NewtonsoftJson/3.1.30": {
       "type": "package",
@@ -4220,11 +4248,6 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.AspNetCore.Authorization/3.1.0.0": {
-      "type": "referenceassembly",
-      "serviceable": false,
-      "sha512": ""
-    },
     "Microsoft.AspNetCore.Authorization.Policy/3.1.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
@@ -4381,11 +4404,6 @@
       "sha512": ""
     },
     "Microsoft.AspNetCore.Localization.Routing/3.1.0.0": {
-      "type": "referenceassembly",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Microsoft.AspNetCore.Metadata/3.1.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""

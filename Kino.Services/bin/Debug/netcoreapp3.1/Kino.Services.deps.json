@@ -11,6 +11,7 @@
           "Kino.Domain": "1.0.0",
           "Kino.Repository": "1.0.0",
           "MailKit": "4.0.0",
+          "Microsoft.AspNetCore.Authorization": "3.1.32",
           "Microsoft.Extensions.Hosting.Abstractions": "3.1.32",
           "MimeKit": "4.0.0"
         },
@@ -34,6 +35,19 @@
           "lib/netstandard2.1/MailKit.dll": {
             "assemblyVersion": "4.0.0.0",
             "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Authorization/3.1.32": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Metadata": "3.1.32",
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.32",
+          "Microsoft.Extensions.Options": "3.1.32"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authorization.dll": {
+            "assemblyVersion": "3.1.32.0",
+            "fileVersion": "3.100.3222.56610"
           }
         }
       },
@@ -63,6 +77,14 @@
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll": {
+            "assemblyVersion": "3.1.32.0",
+            "fileVersion": "3.100.3222.56610"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Metadata/3.1.32": {
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Metadata.dll": {
             "assemblyVersion": "3.1.32.0",
             "fileVersion": "3.100.3222.56610"
           }
@@ -1249,6 +1271,13 @@
       "path": "mailkit/4.0.0",
       "hashPath": "mailkit.4.0.0.nupkg.sha512"
     },
+    "Microsoft.AspNetCore.Authorization/3.1.32": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-crGS0sKvN/pH/efVpWYLQCIHBxF4RE7mz7s6fa2ULk8WKiFkEoGbdB7dcafNA1LTmwcLxuAQhL7Hyu82mSYVlQ==",
+      "path": "microsoft.aspnetcore.authorization/3.1.32",
+      "hashPath": "microsoft.aspnetcore.authorization.3.1.32.nupkg.sha512"
+    },
     "Microsoft.AspNetCore.Cryptography.Internal/3.1.32": {
       "type": "package",
       "serviceable": true,
@@ -1269,6 +1298,13 @@
       "sha512": "sha512-J4JrKulV9Ng/+y+YNqlVxJx4T/fmlSzAHg4rQYy/I+NfzBNJwzr/McHiwHNc0qsNIvGavRM60Spr77h/RuqP7g==",
       "path": "microsoft.aspnetcore.identity.entityframeworkcore/3.1.32",
       "hashPath": "microsoft.aspnetcore.identity.entityframeworkcore.3.1.32.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Metadata/3.1.32": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NnvOzh1mBesgFXXvNIdPCunEgo0H+08yHjAUuxorYM+yGbXYT32T8UFBWXWE0WR3a8v8qlUHlqgm6pWPEs7rWA==",
+      "path": "microsoft.aspnetcore.metadata/3.1.32",
+      "hashPath": "microsoft.aspnetcore.metadata.3.1.32.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "type": "package",

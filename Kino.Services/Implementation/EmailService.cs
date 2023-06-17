@@ -29,7 +29,8 @@ namespace Kino.Services.Implementation
                     Subject = item.Subject
                 };
                 emailMessage.From.Add(new MailboxAddress(settings.EmailDisplayName, settings.SmtpUserName));
-                emailMessage.Body = new TextPart(TextFormat.Plain) { Text = item.Subject };
+                if(item.Content!=null)
+                emailMessage.Body = new TextPart(TextFormat.Plain) { Text = item.Content };
                 emailMessage.To.Add(MailboxAddress.Parse(item.MailTo));
                 messages.Add(emailMessage);
             }

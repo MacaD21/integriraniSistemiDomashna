@@ -20,7 +20,7 @@
             @Html.DisplayNameFor(model => model.ProductImage)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.ProductImage)
+                <img class="card-img-top" src="@Model.ProductImage" alt="Image" style="max-width:200px" />
         </dd>
         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Price)
