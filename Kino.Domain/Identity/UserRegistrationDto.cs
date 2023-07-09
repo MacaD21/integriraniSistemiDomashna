@@ -4,15 +4,15 @@ namespace Kino.Domain.Identity
 {
     public class UserRegistrationDto
     {
-        [EmailAddress(ErrorMessage = "Неважечка адреса на е-пошта")]
-        [Required(ErrorMessage = "Е-пошта е задолжително")]
+        [EmailAddress(ErrorMessage = "Email doesn't exists")]
+        [Required(ErrorMessage = "Email is required")]
         public string Email { get; set; }
 
-        [Required(ErrorMessage = "Лозинка е задолжително")]
+        [Required(ErrorMessage = "Password is required")]
         public string Password { get; set; }
 
-        [Required(ErrorMessage = "Потврдење на лозинка е задолжително")]
-        [Compare("Password", ErrorMessage = "Тие не се совпаѓаат")]
+        [Required(ErrorMessage = "Confirm Password is required")]
+        [Compare("Password", ErrorMessage = "Doesn't match")]
         public string ConfirmPassword { get; set; }
     }
 }

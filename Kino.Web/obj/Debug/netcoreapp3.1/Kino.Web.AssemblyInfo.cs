@@ -11,7 +11,6 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap4")]
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-Kino.Web-6fa09550-5b26-4bd1-9d8f-fde5b485acb0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Kino.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]

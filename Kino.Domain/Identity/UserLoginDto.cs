@@ -4,10 +4,10 @@ namespace Kino.Domain.Identity
 {
     public class UserLoginDto
     {
-        [Required(ErrorMessage = "Е-пошта е задолжително")]
-        [EmailAddress(ErrorMessage = "Неважечка адреса на е-пошта")]
+        [Required(ErrorMessage = "Email is required")]
+        [EmailAddress(ErrorMessage = "Email doesn't exist")]
         public string Email { get; set; }
-        [Required(ErrorMessage = "Лозинка е задолжително")]
+        [Required(ErrorMessage = "Password is required")]
         [DataType(DataType.Password)]
         public string Password { get; set; }
         [Display(Name = "Remember me")]
